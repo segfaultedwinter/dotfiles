@@ -1,0 +1,48 @@
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+        "type": "kitty",
+        "source": "~/.config/hypr/themes/precure/boccho/fastfetch-logos/aperturemagenta.txt",
+        "width": 30
+    },
+    "modules": [
+        "break",
+        "break",
+        "title",
+        "separator",
+        {
+            "type": "os",
+            "key": "OS    "
+        },
+        {i
+            "type": "kernel",
+            "key": "kernel"
+        },
+        {
+            "type": "uptime",
+            "key": "Uptime"
+        },
+        {
+            "type": "packges",
+            "key": "Pkgs  "
+        },
+        {
+            "type": "CPU",
+            "key": "CPU   ",
+            "format": "{1} ({5}) @ {6}"
+        },
+        {
+            "type": "GPU",
+            "key": "GPU   "
+        },
+        {
+            "type": "memory",
+            "key": "Memory"
+        },
+        {
+            "type": "battery",
+            "key": "Battery"
+        },
+        "break"
+    ]
+}

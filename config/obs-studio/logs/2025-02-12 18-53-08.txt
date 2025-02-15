@@ -1,0 +1,121 @@
+18:53:08.059: Platform: Wayland
+18:53:08.059: CPU Name: Intel(R) Core(TM) i7-3632QM CPU @ 2.20GHz
+18:53:08.059: CPU Speed: 2893.810MHz
+18:53:08.059: Physical Cores: 4, Logical Cores: 8
+18:53:08.059: Physical Memory: 7818MB Total, 721MB Free
+18:53:08.059: Kernel Version: Linux 6.13.2-arch1-1
+18:53:08.059: Distribution: "Arch Linux" Unknown
+18:53:08.059: Desktop Environment: Hyprland (Hyprland)
+18:53:08.059: Session Type: wayland
+18:53:08.062: Qt Version: 6.8.2 (runtime), 6.8.1 (compiled)
+18:53:08.062: Portable mode: false
+18:53:08.167: OBS 31.0.1 (linux)
+18:53:08.167: ---------------------------------
+18:53:08.174: ---------------------------------
+18:53:08.174: audio settings reset:
+18:53:08.174: 	samples per sec: 48000
+18:53:08.174: 	speakers:        2
+18:53:08.174: 	max buffering:   960 milliseconds
+18:53:08.174: 	buffering type:  dynamically increasing
+18:53:08.176: ---------------------------------
+18:53:08.176: Initializing OpenGL...
+18:53:08.176: Using EGL/Wayland
+18:53:08.259: Initialized EGL 1.5
+18:53:08.283: Loading up OpenGL on adapter Intel Mesa Intel(R) HD Graphics 4000 (IVB GT2)
+18:53:08.283: OpenGL loaded successfully, version 4.2 (Core Profile) Mesa 24.3.4-arch1.1, shading language 4.20
+18:53:08.335: ---------------------------------
+18:53:08.335: video settings reset:
+18:53:08.335: 	base resolution:   1920x1200
+18:53:08.335: 	output resolution: 1440x900
+18:53:08.335: 	downscale filter:  Bicubic
+18:53:08.335: 	fps:               30/1
+18:53:08.335: 	format:            NV12
+18:53:08.335: 	YUV mode:          Rec. 709/Partial
+18:53:08.335: NV12 texture support enabled
+18:53:08.335: P010 texture support not available
+18:53:08.345: Audio monitoring device:
+18:53:08.345: 	name: Default
+18:53:08.345: 	id: default
+18:53:08.346: ---------------------------------
+18:53:08.357: Failed to load 'en-US' text for module: 'decklink-captions.so'
+18:53:08.368: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+18:53:08.378: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+18:53:08.378: Failed to initialize module 'decklink.so'
+18:53:08.628: [pipewire] No capture sources available
+18:53:08.658: v4l2loopback not installed, virtual camera not registered
+18:53:08.766: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+18:53:09.509: VAAPI: API version 1.22
+18:53:09.521: FFmpeg VAAPI H264 encoding not supported
+18:53:09.521: VAAPI: Failed to initialize display in vaapi_device_av1_supported
+18:53:09.541: FFmpeg VAAPI AV1 encoding not supported
+18:53:09.541: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+18:53:09.559: FFmpeg VAAPI HEVC encoding not supported
+18:53:09.644: [NVENC] Test process failed: cuda_init_100
+18:53:09.644: NVENC not supported
+18:53:09.644: Failed to initialize module 'obs-nvenc.so'
+18:53:09.800: os_dlopen(/usr/lib/obs-plugins/obs-websocket.so->/usr/lib/obs-plugins/obs-websocket.so): libqrcodegencpp.so.1: Kann die Shared-Object-Datei nicht öffnen: Datei oder Verzeichnis nicht gefunden
+18:53:09.800: 
+18:53:09.806: os_dlopen(/usr/lib/obs-plugins/obs-websocket.so->/usr/lib/obs-plugins/obs-websocket.so): libqrcodegencpp.so.1: Kann die Shared-Object-Datei nicht öffnen: Datei oder Verzeichnis nicht gefunden
+18:53:09.806: 
+18:53:09.806: Module '/usr/lib/obs-plugins/obs-websocket.so' not loaded
+18:53:09.849: ---------------------------------
+18:53:09.849:   Loaded Modules:
+18:53:09.849:     text-freetype2.so
+18:53:09.849:     rtmp-services.so
+18:53:09.849:     obs-x264.so
+18:53:09.849:     obs-webrtc.so
+18:53:09.849:     obs-vst.so
+18:53:09.849:     obs-transitions.so
+18:53:09.849:     obs-qsv11.so
+18:53:09.849:     obs-outputs.so
+18:53:09.849:     obs-libfdk.so
+18:53:09.849:     obs-filters.so
+18:53:09.849:     obs-ffmpeg.so
+18:53:09.849:     linux-v4l2.so
+18:53:09.849:     linux-pulseaudio.so
+18:53:09.849:     linux-pipewire.so
+18:53:09.849:     linux-jack.so
+18:53:09.849:     linux-capture.so
+18:53:09.849:     linux-alsa.so
+18:53:09.849:     image-source.so
+18:53:09.849:     frontend-tools.so
+18:53:09.849:     decklink-output-ui.so
+18:53:09.849:     decklink-captions.so
+18:53:09.849: ---------------------------------
+18:53:09.850: ---------------------------------
+18:53:09.850: Available Encoders:
+18:53:09.850:   Video Encoders:
+18:53:09.850: 	- ffmpeg_svt_av1 (SVT-AV1)
+18:53:09.850: 	- ffmpeg_aom_av1 (AOM AV1)
+18:53:09.850: 	- obs_x264 (x264)
+18:53:09.850:   Audio Encoders:
+18:53:09.850: 	- ffmpeg_aac (FFmpeg AAC)
+18:53:09.850: 	- ffmpeg_opus (FFmpeg Opus)
+18:53:09.850: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16 Bit))
+18:53:09.850: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24 Bit))
+18:53:09.850: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32 Bit Float))
+18:53:09.850: 	- ffmpeg_alac (FFmpeg ALAC (24 Bit))
+18:53:09.850: 	- ffmpeg_flac (FFmpeg FLAC (16 Bit))
+18:53:09.850: 	- libfdk_aac (libfdk AAC)
+18:53:09.850: ==== Startup complete ===============================================
+18:53:09.884: All scene data cleared
+18:53:09.884: ------------------------------------------------
+18:53:09.891: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.7) 15.0.0'
+18:53:09.891: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+18:53:09.891: pulse-input: Started recording from 'alsa_output.pci-0000_00_1b.0.analog-stereo.monitor' (default)
+18:53:09.891: [Loaded global audio device]: 'Desktop Audio'
+18:53:09.892: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.7) 15.0.0'
+18:53:09.893: pulse-input: An error occurred while getting the source info!
+18:53:09.893: [Loaded global audio device]: 'Mic/Aux'
+18:53:09.893:     - filter: 'Gain' (gain_filter)
+18:53:09.893:     - filter: 'Noise Gate' (noise_gate_filter)
+18:53:09.893: Source ID 'pipewire-screen-capture-source' not found
+18:53:09.894: Failed to create source 'Screen Capture (PipeWire) 2'!
+18:53:09.895: Switched to scene 'Scene'
+18:53:09.895: ------------------------------------------------
+18:53:09.895: Loaded scenes:
+18:53:09.895: - scene 'Scene':
+18:53:09.895:     - source: 'Screen Capture (PipeWire) 2' (pipewire-screen-capture-source)
+18:53:09.895: ------------------------------------------------
+18:53:10.457: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+18:53:10.457: 

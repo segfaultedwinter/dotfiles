@@ -1,0 +1,2 @@
+audio.play_bitrate_non_metered_migrated=true
+connect.dial_devices="[{\"address\":\"192.168.0.224\",\"app_state\":\"MISSING\",\"created_timestamp\":1734797981,\"device_id\":\"53323567-932b-318d-960a-5038549f6213\",\"dial_location_url\":\"http://192.168.0.224:60000/dd.xml\",\"display_name\":\"Fadil's Fire TV\",\"last_seen\":1734798490,\"manufacturer\":\"Amazon\",\"model_name\":\"AFTKA\",\"product_cap\":\"\",\"public_ip\":\"212.241.91.214\",\"wol\":{\"all_interfaces\":false,\"delay_ms\":50,\"mac\":\"48b42319a0bb\",\"port\":9,\"retries\":800}}]"

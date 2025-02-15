@@ -1,0 +1,28 @@
+#
+# General options
+#
+# timeout in 10 seconds
+default-timeout=10000
+
+# color: #c413d2
+
+#
+# Style
+#
+# max visible amount of notifications
+max-visible=3
+# font
+font=Pixel Operator
+#as  ^^^Anonymous Pro
+# colors
+background-color=#313244DD
+text-color=#FFFFFF
+border-color=#313244DD
+border-radius=10
+width=325
+height=75
+outer-margin=
+# let notifications display on top of everything
+layer=overlay
+# set position to be top right of the display
+anchor=top-right

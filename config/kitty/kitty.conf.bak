@@ -1,0 +1,35 @@
+# Font
+# font_family         Cascadia Mono Semibold
+#font_family         Fira Code Semibold
+#font_family         Mx437 IBM VGA 8x16
+# bold_font           auto    
+# italic_font         auto
+# bold_italic_font    auto
+font_size           12    
+disable_ligatures all
+
+# Theming
+background_opacity  1
+# background          #000000
+
+# Window 
+remember_window_size    no
+initial_window_height   25c
+initial_window_width    90c
+
+# Disable window close confirmation
+confirm_os_window_close 0
+
+
+# BEGIN_KITTY_THEME
+# Catppuccin-Mocha
+include current-theme.conf
+# END_KITTY_THEME
+
+
+# BEGIN_KITTY_FONTS
+font_family      family="Ac437 OlivettiThin 9x14"
+bold_font        auto
+italic_font      auto
+bold_italic_font auto
+# END_KITTY_FONTS
